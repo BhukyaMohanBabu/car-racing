@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+           
+            width:200px;
+            height:140px;
+           
+          
+        }
+        input:hover~.div1{
+          transform: translate(400px);
+          transition-duration:5s;
+          transition-property: all;
+          transition-timing-function:ease-in;
+
+            
+
+           
+        }
+        img{
+            width:80%;
+            height:80%;
+
+        }
+        .div2{
+           
+            width:200px;
+            height:140px;
+            
+        }
+        input:hover~.div2{
+            transform:translate(400px);
+            transition-duration:4s;
+            transition-timing-function:ease;
+        }
+        .div3{
+           
+            width:200px;
+            height:140px;
+            
+        }
+        input:hover~.div3{
+            transform:translate(400px);
+            transition-duration: 2s;
+            transition-timing-function:ease-out;
+        }
+        .div4{
+           
+            width:200px;
+            height:140px;
+           
+        }
+        input:hover~.div4{
+            transform:translate(400px);
+            transition-duration: 4s;
+            transition-timing-function:ease;
+        
+        }
+        .md{
+            width:500px;
+            height:600px;
+            transform: translate(300px);
+        }
+marquee{
+    background-color:pink;
+    color: black;
+    font-size:20px;
+
+    
+}
+    </style>
+</head>
+<body>
+    <div class="md">
+    <div>
+        <marquee direction="right" behavior="alternate" scrollamount="12" >Car-Racing </marquee>
+    </div>
+    <input type="radio">
+    <div class="div1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToWkmNf-SQa_Tfjx8qYGaoeZN-_pkzTfKdtA&s" alt="">
+    </div>
+    <div class="div2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZvZoApSpPvkWmDjRE8HN4ejP-TaKqXllQj-Cp3jMDP1zMRW9WtCYdJDimEylQ7ZuLOMg&usqp=CAU"alt="">
+    </div>
+    <div  class="div3" >
+        <img src="https://t3.ftcdn.net/jpg/00/81/84/50/360_F_81845083_b9LhTNBgWFiKpn80CFe25rhKTqzRzEOR.jpg" alt="">
+    </div>
+    <div class="div4">
+        <img src="https://t3.ftcdn.net/jpg/00/81/79/62/360_F_81796222_oX8c8nEWhJsw03CDq1bYLvqyvBGcR475.jpg" alt="">
+    </div>
+</div>
+</body>
+</html>
